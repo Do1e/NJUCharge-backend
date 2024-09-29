@@ -1,0 +1,3290 @@
+[
+  {
+    "id": "117375",
+    "name": "05栋1号机",
+    "outlets": [
+      {
+        "id": "O220608012344561",
+        "name": "南京大学仙林校区-5栋1号机 插座1",
+        "restmin": 131,
+        "usedmin": 469,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 18:54",
+        "update_time": 1727599387
+      },
+      {
+        "id": "O220608012345571",
+        "name": "南京大学仙林校区-5栋1号机 插座2",
+        "restmin": 112,
+        "usedmin": 488,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 18:35",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012346581",
+        "name": "南京大学仙林校区-5栋1号机 插座3",
+        "restmin": 432,
+        "usedmin": 168,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 23:55",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012347591",
+        "name": "南京大学仙林校区-5栋1号机 插座4",
+        "restmin": 367,
+        "usedmin": 233,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 22:50",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012348602",
+        "name": "南京大学仙林校区-5栋1号机 插座5",
+        "restmin": 436,
+        "usedmin": 164,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 23:59",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012349612",
+        "name": "南京大学仙林校区-5栋1号机 插座6",
+        "restmin": 421,
+        "usedmin": 179,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 23:44",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012350622",
+        "name": "南京大学仙林校区-5栋1号机 插座7",
+        "restmin": 415,
+        "usedmin": 185,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 23:38",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012351633",
+        "name": "南京大学仙林校区-5栋1号机 插座8",
+        "restmin": 391,
+        "usedmin": 209,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 23:14",
+        "update_time": 1727599389
+      }
+    ]
+  },
+  {
+    "id": "117369",
+    "name": "05栋2号机",
+    "outlets": [
+      {
+        "id": "O220608012296543",
+        "name": "南京大学仙林校区-5栋2号机 插座1",
+        "restmin": 566,
+        "usedmin": 34,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 02:09",
+        "update_time": 1727599387
+      },
+      {
+        "id": "O220608012297554",
+        "name": "南京大学仙林校区-5栋2号机 插座2",
+        "restmin": 172,
+        "usedmin": 428,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 19:35",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012298565",
+        "name": "南京大学仙林校区-5栋2号机 插座3",
+        "restmin": 338,
+        "usedmin": 262,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 22:21",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012299576",
+        "name": "南京大学仙林校区-5栋2号机 插座4",
+        "restmin": 571,
+        "usedmin": 29,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 02:14",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012300586",
+        "name": "南京大学仙林校区-5栋2号机 插座5",
+        "restmin": 172,
+        "usedmin": 428,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 19:35",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012301598",
+        "name": "南京大学仙林校区-5栋2号机 插座6",
+        "restmin": 171,
+        "usedmin": 429,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 19:34",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012302609",
+        "name": "南京大学仙林校区-5栋2号机 插座7",
+        "restmin": 184,
+        "usedmin": 416,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 19:47",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012303621",
+        "name": "南京大学仙林校区-5栋2号机 插座8",
+        "restmin": 518,
+        "usedmin": 82,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 01:21",
+        "update_time": 1727599389
+      }
+    ]
+  },
+  {
+    "id": "112936",
+    "name": "05栋3号机",
+    "outlets": [
+      {
+        "id": "O220427015165819",
+        "name": "南京大学仙林校区5栋3号机 插座1",
+        "restmin": 360,
+        "usedmin": 240,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 22:43",
+        "update_time": 1727599387
+      },
+      {
+        "id": "O220427015166828",
+        "name": "南京大学仙林校区5栋3号机 插座2",
+        "restmin": 65535,
+        "usedmin": 0,
+        "error": true,
+        "status": 0,
+        "msg": "故障",
+        "available_time": "unknown",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220427015167837",
+        "name": "南京大学仙林校区5栋3号机 插座3",
+        "restmin": 401,
+        "usedmin": 199,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 23:24",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220427015168846",
+        "name": "南京大学仙林校区5栋3号机 插座4",
+        "restmin": 377,
+        "usedmin": 223,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 23:00",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220427015169855",
+        "name": "南京大学仙林校区5栋3号机 插座5",
+        "restmin": 526,
+        "usedmin": 74,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 01:29",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220427015170864",
+        "name": "南京大学仙林校区5栋3号机 插座6",
+        "restmin": 504,
+        "usedmin": 96,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 01:07",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220427015171877",
+        "name": "南京大学仙林校区5栋3号机 插座7",
+        "restmin": 577,
+        "usedmin": 23,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 02:20",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220427015172886",
+        "name": "南京大学仙林校区5栋3号机 插座8",
+        "restmin": 480,
+        "usedmin": 120,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 00:43",
+        "update_time": 1727599389
+      }
+    ]
+  },
+  {
+    "id": "117497",
+    "name": "05栋4号机",
+    "outlets": [
+      {
+        "id": "O220609013320437",
+        "name": "南京大学仙林校区5栋4号机 插座1",
+        "restmin": 361,
+        "usedmin": 239,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 22:44",
+        "update_time": 1727599387
+      },
+      {
+        "id": "O220609013321446",
+        "name": "南京大学仙林校区5栋4号机 插座2",
+        "restmin": 158,
+        "usedmin": 442,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 19:21",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220609013322456",
+        "name": "南京大学仙林校区5栋4号机 插座3",
+        "restmin": 488,
+        "usedmin": 112,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 00:51",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220609013323465",
+        "name": "南京大学仙林校区5栋4号机 插座4",
+        "restmin": 429,
+        "usedmin": 171,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 23:52",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220609013324475",
+        "name": "南京大学仙林校区5栋4号机 插座5",
+        "restmin": 331,
+        "usedmin": 269,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 22:14",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220609013325486",
+        "name": "南京大学仙林校区5栋4号机 插座6",
+        "restmin": 562,
+        "usedmin": 38,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 02:05",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220609013326496",
+        "name": "南京大学仙林校区5栋4号机 插座7",
+        "restmin": 561,
+        "usedmin": 39,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 02:04",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220609013327506",
+        "name": "南京大学仙林校区5栋4号机 插座8",
+        "restmin": 321,
+        "usedmin": 279,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 22:04",
+        "update_time": 1727599389
+      }
+    ]
+  },
+  {
+    "id": "158676",
+    "name": "17栋1号机-1",
+    "outlets": [
+      {
+        "id": "O230330020689220",
+        "name": "南京大学仙林校区17栋1号机 插座1",
+        "restmin": 455,
+        "usedmin": 145,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 00:18",
+        "update_time": 1727599387
+      },
+      {
+        "id": "O230330020690230",
+        "name": "南京大学仙林校区17栋1号机 插座2",
+        "restmin": 313,
+        "usedmin": 287,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 21:56",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330020691242",
+        "name": "南京大学仙林校区17栋1号机 插座3",
+        "restmin": 288,
+        "usedmin": 312,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 21:31",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330020692253",
+        "name": "南京大学仙林校区17栋1号机 插座4",
+        "restmin": 329,
+        "usedmin": 271,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 22:12",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330020693264",
+        "name": "南京大学仙林校区17栋1号机 插座5",
+        "restmin": 377,
+        "usedmin": 223,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 23:00",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330020694275",
+        "name": "南京大学仙林校区17栋1号机 插座6",
+        "restmin": 155,
+        "usedmin": 445,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 19:18",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330020695286",
+        "name": "南京大学仙林校区17栋1号机 插座7",
+        "restmin": 439,
+        "usedmin": 161,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 00:02",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330020696297",
+        "name": "南京大学仙林校区17栋1号机 插座8",
+        "restmin": 487,
+        "usedmin": 113,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 00:50",
+        "update_time": 1727599389
+      },
+      {
+        "id": "O230330020697308",
+        "name": "南京大学仙林校区17栋1号机 插座9",
+        "restmin": 483,
+        "usedmin": 117,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 00:46",
+        "update_time": 1727599389
+      },
+      {
+        "id": "O230330020698319",
+        "name": "南京大学仙林校区17栋1号机 插座10",
+        "restmin": 224,
+        "usedmin": 376,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 20:27",
+        "update_time": 1727599389
+      }
+    ]
+  },
+  {
+    "id": "117374",
+    "name": "17栋1号机-2",
+    "outlets": [
+      {
+        "id": "O220608012336770",
+        "name": "南京大学仙林校区-17栋1号机 插座1",
+        "restmin": 168,
+        "usedmin": 132,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 19:31",
+        "update_time": 1727599387
+      },
+      {
+        "id": "O220608012337780",
+        "name": "南京大学仙林校区-17栋1号机 插座2",
+        "restmin": 331,
+        "usedmin": 269,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 22:14",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012338791",
+        "name": "南京大学仙林校区-17栋1号机 插座3",
+        "restmin": 219,
+        "usedmin": 141,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 20:22",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012339802",
+        "name": "南京大学仙林校区-17栋1号机 插座4",
+        "restmin": 0,
+        "usedmin": 0,
+        "error": false,
+        "status": 0,
+        "msg": "空闲",
+        "available_time": "now",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012340812",
+        "name": "南京大学仙林校区-17栋1号机 插座5",
+        "restmin": 309,
+        "usedmin": 291,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 21:52",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012341822",
+        "name": "南京大学仙林校区-17栋1号机 插座6",
+        "restmin": 214,
+        "usedmin": 386,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 20:17",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012342833",
+        "name": "南京大学仙林校区-17栋1号机 插座7",
+        "restmin": 200,
+        "usedmin": 100,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 20:03",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012343843",
+        "name": "南京大学仙林校区-17栋1号机 插座8",
+        "restmin": 0,
+        "usedmin": 0,
+        "error": false,
+        "status": 0,
+        "msg": "空闲",
+        "available_time": "now",
+        "update_time": 1727599389
+      }
+    ]
+  },
+  {
+    "id": "157805",
+    "name": "17栋2号机-1",
+    "outlets": [
+      {
+        "id": "O230325022041970",
+        "name": "南京大学仙林校区17栋2号机 插座1",
+        "restmin": 143,
+        "usedmin": 457,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 19:06",
+        "update_time": 1727599387
+      },
+      {
+        "id": "O230325022042981",
+        "name": "南京大学仙林校区17栋2号机 插座2",
+        "restmin": 363,
+        "usedmin": 237,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 22:46",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230325022043992",
+        "name": "南京大学仙林校区17栋2号机 插座3",
+        "restmin": 92,
+        "usedmin": 508,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 18:15",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230325022044003",
+        "name": "南京大学仙林校区17栋2号机 插座4",
+        "restmin": 416,
+        "usedmin": 184,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 23:39",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230325022045013",
+        "name": "南京大学仙林校区17栋2号机 插座5",
+        "restmin": 146,
+        "usedmin": 454,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 19:09",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230325022046024",
+        "name": "南京大学仙林校区17栋2号机 插座6",
+        "restmin": 266,
+        "usedmin": 94,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 21:09",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230325022047035",
+        "name": "南京大学仙林校区17栋2号机 插座7",
+        "restmin": 344,
+        "usedmin": 256,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 22:27",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230325022048045",
+        "name": "南京大学仙林校区17栋2号机 插座8",
+        "restmin": 203,
+        "usedmin": 397,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 20:06",
+        "update_time": 1727599389
+      },
+      {
+        "id": "O230325022049056",
+        "name": "南京大学仙林校区17栋2号机 插座9",
+        "restmin": 173,
+        "usedmin": 427,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 19:36",
+        "update_time": 1727599389
+      },
+      {
+        "id": "O230325022050067",
+        "name": "南京大学仙林校区17栋2号机 插座10",
+        "restmin": 212,
+        "usedmin": 388,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 20:15",
+        "update_time": 1727599389
+      }
+    ]
+  },
+  {
+    "id": "117372",
+    "name": "17栋2号机-2",
+    "outlets": [
+      {
+        "id": "O220608012320570",
+        "name": "南京大学仙林校区-17栋2号机 插座1",
+        "restmin": 454,
+        "usedmin": 146,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 00:17",
+        "update_time": 1727599387
+      },
+      {
+        "id": "O220608012321582",
+        "name": "南京大学仙林校区-17栋2号机 插座2",
+        "restmin": 330,
+        "usedmin": 270,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 22:13",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012322593",
+        "name": "南京大学仙林校区-17栋2号机 插座3",
+        "restmin": 535,
+        "usedmin": 65,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 01:38",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012323603",
+        "name": "南京大学仙林校区-17栋2号机 插座4",
+        "restmin": 139,
+        "usedmin": 461,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 19:02",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012324614",
+        "name": "南京大学仙林校区-17栋2号机 插座5",
+        "restmin": 166,
+        "usedmin": 434,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 19:29",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012325625",
+        "name": "南京大学仙林校区-17栋2号机 插座6",
+        "restmin": 319,
+        "usedmin": 281,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 22:02",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012326635",
+        "name": "南京大学仙林校区-17栋2号机 插座7",
+        "restmin": 91,
+        "usedmin": 509,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 18:14",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012327646",
+        "name": "南京大学仙林校区-17栋2号机 插座8",
+        "restmin": 296,
+        "usedmin": 304,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 21:39",
+        "update_time": 1727599389
+      }
+    ]
+  },
+  {
+    "id": "157551",
+    "name": "17栋3号机-1",
+    "outlets": [
+      {
+        "id": "O23032302511822",
+        "name": "南京大学仙林校区17栋3号机 插座1",
+        "restmin": 138,
+        "usedmin": 462,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 19:01",
+        "update_time": 1727599387
+      },
+      {
+        "id": "O23032302512834",
+        "name": "南京大学仙林校区17栋3号机 插座2",
+        "restmin": 492,
+        "usedmin": 108,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 00:55",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O23032302513846",
+        "name": "南京大学仙林校区17栋3号机 插座3",
+        "restmin": 522,
+        "usedmin": 78,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 01:25",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O23032302514858",
+        "name": "南京大学仙林校区17栋3号机 插座4",
+        "restmin": 94,
+        "usedmin": 506,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 18:17",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O23032302515870",
+        "name": "南京大学仙林校区17栋3号机 插座5",
+        "restmin": 247,
+        "usedmin": 353,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 20:50",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O23032302516881",
+        "name": "南京大学仙林校区17栋3号机 插座6",
+        "restmin": 203,
+        "usedmin": 397,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 20:06",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O23032302517893",
+        "name": "南京大学仙林校区17栋3号机 插座7",
+        "restmin": 169,
+        "usedmin": 431,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 19:32",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O23032302518905",
+        "name": "南京大学仙林校区17栋3号机 插座8",
+        "restmin": 0,
+        "usedmin": 0,
+        "error": false,
+        "status": 0,
+        "msg": "空闲",
+        "available_time": "now",
+        "update_time": 1727599389
+      },
+      {
+        "id": "O23032302519917",
+        "name": "南京大学仙林校区17栋3号机 插座9",
+        "restmin": 317,
+        "usedmin": 283,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 22:00",
+        "update_time": 1727599389
+      },
+      {
+        "id": "O23032302520929",
+        "name": "南京大学仙林校区17栋3号机 插座10",
+        "restmin": 580,
+        "usedmin": 20,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 02:23",
+        "update_time": 1727599389
+      }
+    ]
+  },
+  {
+    "id": "165088",
+    "name": "17栋3号机-2",
+    "outlets": [
+      {
+        "id": "O230513027627299",
+        "name": "南京大学仙林校区17栋3号机 插座1",
+        "restmin": 405,
+        "usedmin": 195,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 23:28",
+        "update_time": 1727599387
+      },
+      {
+        "id": "O230513027628310",
+        "name": "南京大学仙林校区17栋3号机 插座2",
+        "restmin": 120,
+        "usedmin": 240,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 18:43",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230513027629321",
+        "name": "南京大学仙林校区17栋3号机 插座3",
+        "restmin": 468,
+        "usedmin": 132,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 00:31",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230513027630333",
+        "name": "南京大学仙林校区17栋3号机 插座4",
+        "restmin": 298,
+        "usedmin": 302,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 21:41",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230513027631344",
+        "name": "南京大学仙林校区17栋3号机 插座5",
+        "restmin": 492,
+        "usedmin": 108,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 00:55",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230513027632355",
+        "name": "南京大学仙林校区17栋3号机 插座6",
+        "restmin": 312,
+        "usedmin": 288,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 21:55",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230513027633366",
+        "name": "南京大学仙林校区17栋3号机 插座7",
+        "restmin": 298,
+        "usedmin": 302,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 21:41",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230513027634377",
+        "name": "南京大学仙林校区17栋3号机 插座8",
+        "restmin": 335,
+        "usedmin": 265,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 22:18",
+        "update_time": 1727599389
+      }
+    ]
+  },
+  {
+    "id": "161740",
+    "name": "18栋1号机",
+    "outlets": [
+      {
+        "id": "O230424025877111",
+        "name": "南京大学仙林校区18栋1号机 插座1",
+        "restmin": 453,
+        "usedmin": 147,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 00:16",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230424025878123",
+        "name": "南京大学仙林校区18栋1号机 插座2",
+        "restmin": 111,
+        "usedmin": 489,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 18:34",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230424025879134",
+        "name": "南京大学仙林校区18栋1号机 插座3",
+        "restmin": 588,
+        "usedmin": 12,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 02:31",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230424025880145",
+        "name": "南京大学仙林校区18栋1号机 插座4",
+        "restmin": 293,
+        "usedmin": 307,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 21:36",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230424025881156",
+        "name": "南京大学仙林校区18栋1号机 插座5",
+        "restmin": 529,
+        "usedmin": 71,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 01:32",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230424025882167",
+        "name": "南京大学仙林校区18栋1号机 插座6",
+        "restmin": 453,
+        "usedmin": 147,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 00:16",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230424025883180",
+        "name": "南京大学仙林校区18栋1号机 插座7",
+        "restmin": 248,
+        "usedmin": 352,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 20:51",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230424025884191",
+        "name": "南京大学仙林校区18栋1号机 插座8",
+        "restmin": 170,
+        "usedmin": 430,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 19:33",
+        "update_time": 1727599389
+      },
+      {
+        "id": "O230424025885202",
+        "name": "南京大学仙林校区18栋1号机 插座9",
+        "restmin": 131,
+        "usedmin": 469,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 18:54",
+        "update_time": 1727599389
+      },
+      {
+        "id": "O230424025886213",
+        "name": "南京大学仙林校区18栋1号机 插座10",
+        "restmin": 424,
+        "usedmin": 176,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 23:47",
+        "update_time": 1727599389
+      }
+    ]
+  },
+  {
+    "id": "161742",
+    "name": "18栋2号机",
+    "outlets": [
+      {
+        "id": "O230424025897348",
+        "name": "南京大学仙林校区18栋2号机 插座1",
+        "restmin": 475,
+        "usedmin": 125,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 00:38",
+        "update_time": 1727599387
+      },
+      {
+        "id": "O230424025898360",
+        "name": "南京大学仙林校区18栋2号机 插座2",
+        "restmin": 472,
+        "usedmin": 128,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 00:35",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230424025899372",
+        "name": "南京大学仙林校区18栋2号机 插座3",
+        "restmin": 348,
+        "usedmin": 252,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 22:31",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230424025900383",
+        "name": "南京大学仙林校区18栋2号机 插座4",
+        "restmin": 151,
+        "usedmin": 449,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 19:14",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230424025901394",
+        "name": "南京大学仙林校区18栋2号机 插座5",
+        "restmin": 124,
+        "usedmin": 476,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 18:47",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230424025902405",
+        "name": "南京大学仙林校区18栋2号机 插座6",
+        "restmin": 215,
+        "usedmin": 145,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 20:18",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230424025903416",
+        "name": "南京大学仙林校区18栋2号机 插座7",
+        "restmin": 456,
+        "usedmin": 144,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 00:19",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230424025904428",
+        "name": "南京大学仙林校区18栋2号机 插座8",
+        "restmin": 587,
+        "usedmin": 13,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 02:30",
+        "update_time": 1727599389
+      },
+      {
+        "id": "O230424025905439",
+        "name": "南京大学仙林校区18栋2号机 插座9",
+        "restmin": 324,
+        "usedmin": 276,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 22:07",
+        "update_time": 1727599389
+      },
+      {
+        "id": "O230424025906450",
+        "name": "南京大学仙林校区18栋2号机 插座10",
+        "restmin": 490,
+        "usedmin": 110,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 00:53",
+        "update_time": 1727599389
+      }
+    ]
+  },
+  {
+    "id": "161734",
+    "name": "18栋3号机",
+    "outlets": [
+      {
+        "id": "O230424025817266",
+        "name": "南京大学仙林校区18栋3号机 插座1",
+        "restmin": 463,
+        "usedmin": 137,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 00:26",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230424025818277",
+        "name": "南京大学仙林校区18栋3号机 插座2",
+        "restmin": 173,
+        "usedmin": 427,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 19:36",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230424025819288",
+        "name": "南京大学仙林校区18栋3号机 插座3",
+        "restmin": 241,
+        "usedmin": 359,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 20:44",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230424025820299",
+        "name": "南京大学仙林校区18栋3号机 插座4",
+        "restmin": 157,
+        "usedmin": 443,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 19:20",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230424025821310",
+        "name": "南京大学仙林校区18栋3号机 插座5",
+        "restmin": 197,
+        "usedmin": 403,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 20:00",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230424025822321",
+        "name": "南京大学仙林校区18栋3号机 插座6",
+        "restmin": 360,
+        "usedmin": 0,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 22:43",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230424025823333",
+        "name": "南京大学仙林校区18栋3号机 插座7",
+        "restmin": 237,
+        "usedmin": 363,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 20:40",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230424025824344",
+        "name": "南京大学仙林校区18栋3号机 插座8",
+        "restmin": 146,
+        "usedmin": 154,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 19:09",
+        "update_time": 1727599389
+      },
+      {
+        "id": "O230424025825356",
+        "name": "南京大学仙林校区18栋3号机 插座9",
+        "restmin": 0,
+        "usedmin": 0,
+        "error": false,
+        "status": 0,
+        "msg": "空闲",
+        "available_time": "now",
+        "update_time": 1727599389
+      },
+      {
+        "id": "O230424025826367",
+        "name": "南京大学仙林校区18栋3号机 插座10",
+        "restmin": 213,
+        "usedmin": 87,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 20:16",
+        "update_time": 1727599389
+      }
+    ]
+  },
+  {
+    "id": "161719",
+    "name": "18栋4号机",
+    "outlets": [
+      {
+        "id": "O230424025667637",
+        "name": "南京大学仙林校区18栋4号机 插座1",
+        "restmin": 137,
+        "usedmin": 463,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 19:00",
+        "update_time": 1727599387
+      },
+      {
+        "id": "O230424025668648",
+        "name": "南京大学仙林校区18栋4号机 插座2",
+        "restmin": 111,
+        "usedmin": 489,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 18:34",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230424025669659",
+        "name": "南京大学仙林校区18栋4号机 插座3",
+        "restmin": 469,
+        "usedmin": 131,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 00:32",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230424025670670",
+        "name": "南京大学仙林校区18栋4号机 插座4",
+        "restmin": 97,
+        "usedmin": 503,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 18:20",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230424025671681",
+        "name": "南京大学仙林校区18栋4号机 插座5",
+        "restmin": 557,
+        "usedmin": 43,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 02:00",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230424025672692",
+        "name": "南京大学仙林校区18栋4号机 插座6",
+        "restmin": 73,
+        "usedmin": 527,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 17:56",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230424025673703",
+        "name": "南京大学仙林校区18栋4号机 插座7",
+        "restmin": 88,
+        "usedmin": 272,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 18:11",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230424025674714",
+        "name": "南京大学仙林校区18栋4号机 插座8",
+        "restmin": 155,
+        "usedmin": 445,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 19:18",
+        "update_time": 1727599389
+      },
+      {
+        "id": "O230424025675725",
+        "name": "南京大学仙林校区18栋4号机 插座9",
+        "restmin": 582,
+        "usedmin": 18,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 02:25",
+        "update_time": 1727599389
+      },
+      {
+        "id": "O230424025676736",
+        "name": "南京大学仙林校区18栋4号机 插座10",
+        "restmin": 342,
+        "usedmin": 258,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 22:25",
+        "update_time": 1727599389
+      }
+    ]
+  },
+  {
+    "id": "117387",
+    "name": "24栋1号机",
+    "outlets": [
+      {
+        "id": "O220608012440672",
+        "name": "南京大学仙林校区-24栋1号机 插座1",
+        "restmin": 216,
+        "usedmin": 384,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 20:19",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012441682",
+        "name": "南京大学仙林校区-24栋1号机 插座2",
+        "restmin": 137,
+        "usedmin": 463,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 19:00",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012442692",
+        "name": "南京大学仙林校区-24栋1号机 插座3",
+        "restmin": 0,
+        "usedmin": 0,
+        "error": false,
+        "status": 0,
+        "msg": "空闲",
+        "available_time": "now",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012443702",
+        "name": "南京大学仙林校区-24栋1号机 插座4",
+        "restmin": 368,
+        "usedmin": 232,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 22:51",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012444712",
+        "name": "南京大学仙林校区-24栋1号机 插座5",
+        "restmin": 0,
+        "usedmin": 0,
+        "error": false,
+        "status": 0,
+        "msg": "空闲",
+        "available_time": "now",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012445722",
+        "name": "南京大学仙林校区-24栋1号机 插座6",
+        "restmin": 491,
+        "usedmin": 109,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 00:54",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012446731",
+        "name": "南京大学仙林校区-24栋1号机 插座7",
+        "restmin": 65535,
+        "usedmin": 142,
+        "error": false,
+        "status": 1,
+        "msg": "分钟计费模式",
+        "available_time": "unknown",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012447741",
+        "name": "南京大学仙林校区-24栋1号机 插座8",
+        "restmin": 193,
+        "usedmin": 407,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 19:56",
+        "update_time": 1727599389
+      }
+    ]
+  },
+  {
+    "id": "117474",
+    "name": "24栋2号机",
+    "outlets": [
+      {
+        "id": "O220609013144295",
+        "name": "南京大学仙林校区-24栋2号机 插座1",
+        "restmin": 0,
+        "usedmin": 0,
+        "error": false,
+        "status": 0,
+        "msg": "空闲",
+        "available_time": "now",
+        "update_time": 1727599387
+      },
+      {
+        "id": "O220609013145306",
+        "name": "南京大学仙林校区-24栋2号机 插座2",
+        "restmin": 238,
+        "usedmin": 362,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 20:41",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220609013146316",
+        "name": "南京大学仙林校区-24栋2号机 插座3",
+        "restmin": 498,
+        "usedmin": 102,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 01:01",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220609013147326",
+        "name": "南京大学仙林校区-24栋2号机 插座4",
+        "restmin": 285,
+        "usedmin": 315,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 21:28",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220609013148336",
+        "name": "南京大学仙林校区-24栋2号机 插座5",
+        "restmin": 0,
+        "usedmin": 0,
+        "error": false,
+        "status": 0,
+        "msg": "空闲",
+        "available_time": "now",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220609013149346",
+        "name": "南京大学仙林校区-24栋2号机 插座6",
+        "restmin": 301,
+        "usedmin": 299,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 21:44",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220609013150356",
+        "name": "南京大学仙林校区-24栋2号机 插座7",
+        "restmin": 157,
+        "usedmin": 443,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 19:20",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220609013151367",
+        "name": "南京大学仙林校区-24栋2号机 插座8",
+        "restmin": 211,
+        "usedmin": 389,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 20:14",
+        "update_time": 1727599389
+      }
+    ]
+  },
+  {
+    "id": "158789",
+    "name": "26栋1号机",
+    "outlets": [
+      {
+        "id": "O230330021715334",
+        "name": "南京大学仙林校区-26栋1号机 插座1",
+        "restmin": 532,
+        "usedmin": 68,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 01:35",
+        "update_time": 1727599387
+      },
+      {
+        "id": "O230330021716345",
+        "name": "南京大学仙林校区-26栋1号机 插座2",
+        "restmin": 559,
+        "usedmin": 41,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 02:02",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330021717357",
+        "name": "南京大学仙林校区-26栋1号机 插座3",
+        "restmin": 574,
+        "usedmin": 26,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 02:17",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330021718368",
+        "name": "南京大学仙林校区-26栋1号机 插座4",
+        "restmin": 549,
+        "usedmin": 51,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 01:52",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330021719379",
+        "name": "南京大学仙林校区-26栋1号机 插座5",
+        "restmin": 0,
+        "usedmin": 0,
+        "error": false,
+        "status": 0,
+        "msg": "空闲",
+        "available_time": "now",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330021720390",
+        "name": "南京大学仙林校区-26栋1号机 插座6",
+        "restmin": 551,
+        "usedmin": 49,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 01:54",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330021721401",
+        "name": "南京大学仙林校区-26栋1号机 插座7",
+        "restmin": 552,
+        "usedmin": 48,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 01:55",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330021722413",
+        "name": "南京大学仙林校区-26栋1号机 插座8",
+        "restmin": 542,
+        "usedmin": 58,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 01:45",
+        "update_time": 1727599389
+      },
+      {
+        "id": "O230330021723424",
+        "name": "南京大学仙林校区-26栋1号机 插座9",
+        "restmin": 574,
+        "usedmin": 26,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 02:17",
+        "update_time": 1727599389
+      },
+      {
+        "id": "O230330021724435",
+        "name": "南京大学仙林校区-26栋1号机 插座10",
+        "restmin": 528,
+        "usedmin": 72,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 01:31",
+        "update_time": 1727599389
+      }
+    ]
+  },
+  {
+    "id": "158742",
+    "name": "26栋2号机",
+    "outlets": [
+      {
+        "id": "O230330021301522",
+        "name": "南京大学仙林校区-26栋2号机 插座1",
+        "restmin": 0,
+        "usedmin": 0,
+        "error": false,
+        "status": 0,
+        "msg": "空闲",
+        "available_time": "now",
+        "update_time": 1727599387
+      },
+      {
+        "id": "O230330021302534",
+        "name": "南京大学仙林校区-26栋2号机 插座2",
+        "restmin": 522,
+        "usedmin": 78,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 01:25",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330021303546",
+        "name": "南京大学仙林校区-26栋2号机 插座3",
+        "restmin": 0,
+        "usedmin": 0,
+        "error": false,
+        "status": 0,
+        "msg": "空闲",
+        "available_time": "now",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330021304559",
+        "name": "南京大学仙林校区-26栋2号机 插座4",
+        "restmin": 575,
+        "usedmin": 25,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 02:18",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330021305571",
+        "name": "南京大学仙林校区-26栋2号机 插座5",
+        "restmin": 0,
+        "usedmin": 0,
+        "error": false,
+        "status": 0,
+        "msg": "空闲",
+        "available_time": "now",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330021306582",
+        "name": "南京大学仙林校区-26栋2号机 插座6",
+        "restmin": 576,
+        "usedmin": 24,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 02:19",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330021307594",
+        "name": "南京大学仙林校区-26栋2号机 插座7",
+        "restmin": 316,
+        "usedmin": 44,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 21:59",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330021308606",
+        "name": "南京大学仙林校区-26栋2号机 插座8",
+        "restmin": 549,
+        "usedmin": 51,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 01:52",
+        "update_time": 1727599389
+      },
+      {
+        "id": "O230330021309618",
+        "name": "南京大学仙林校区-26栋2号机 插座9",
+        "restmin": 0,
+        "usedmin": 0,
+        "error": false,
+        "status": 0,
+        "msg": "空闲",
+        "available_time": "now",
+        "update_time": 1727599389
+      },
+      {
+        "id": "O230330021310629",
+        "name": "南京大学仙林校区-26栋2号机 插座10",
+        "restmin": 0,
+        "usedmin": 0,
+        "error": false,
+        "status": 0,
+        "msg": "空闲",
+        "available_time": "now",
+        "update_time": 1727599389
+      }
+    ]
+  },
+  {
+    "id": "158664",
+    "name": "26栋3号机",
+    "outlets": [
+      {
+        "id": "O230330020569886",
+        "name": "南京大学仙林校区-26栋3号机 插座1",
+        "restmin": 0,
+        "usedmin": 0,
+        "error": false,
+        "status": 0,
+        "msg": "空闲",
+        "available_time": "now",
+        "update_time": 1727599387
+      },
+      {
+        "id": "O230330020570897",
+        "name": "南京大学仙林校区-26栋3号机 插座2",
+        "restmin": 0,
+        "usedmin": 0,
+        "error": false,
+        "status": 0,
+        "msg": "空闲",
+        "available_time": "now",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330020571909",
+        "name": "南京大学仙林校区-26栋3号机 插座3",
+        "restmin": 0,
+        "usedmin": 0,
+        "error": false,
+        "status": 0,
+        "msg": "空闲",
+        "available_time": "now",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330020572920",
+        "name": "南京大学仙林校区-26栋3号机 插座4",
+        "restmin": 0,
+        "usedmin": 0,
+        "error": false,
+        "status": 0,
+        "msg": "空闲",
+        "available_time": "now",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330020573931",
+        "name": "南京大学仙林校区-26栋3号机 插座5",
+        "restmin": 583,
+        "usedmin": 17,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 02:26",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330020574942",
+        "name": "南京大学仙林校区-26栋3号机 插座6",
+        "restmin": 0,
+        "usedmin": 0,
+        "error": false,
+        "status": 0,
+        "msg": "空闲",
+        "available_time": "now",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330020575954",
+        "name": "南京大学仙林校区-26栋3号机 插座7",
+        "restmin": 336,
+        "usedmin": 24,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 22:19",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330020576965",
+        "name": "南京大学仙林校区-26栋3号机 插座8",
+        "restmin": 222,
+        "usedmin": 78,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 20:25",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330020577976",
+        "name": "南京大学仙林校区-26栋3号机 插座9",
+        "restmin": 0,
+        "usedmin": 0,
+        "error": false,
+        "status": 0,
+        "msg": "空闲",
+        "available_time": "now",
+        "update_time": 1727599389
+      },
+      {
+        "id": "O230330020578987",
+        "name": "南京大学仙林校区-26栋3号机 插座10",
+        "restmin": 0,
+        "usedmin": 0,
+        "error": false,
+        "status": 0,
+        "msg": "空闲",
+        "available_time": "now",
+        "update_time": 1727599389
+      }
+    ]
+  },
+  {
+    "id": "158507",
+    "name": "27栋1号机",
+    "outlets": [
+      {
+        "id": "O230329029041197",
+        "name": "南京大学仙林校区-27栋1号机 插座1",
+        "restmin": 397,
+        "usedmin": 203,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 23:20",
+        "update_time": 1727599387
+      },
+      {
+        "id": "O230329029042212",
+        "name": "南京大学仙林校区-27栋1号机 插座2",
+        "restmin": 241,
+        "usedmin": 359,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 20:44",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230329029043223",
+        "name": "南京大学仙林校区-27栋1号机 插座3",
+        "restmin": 291,
+        "usedmin": 309,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 21:34",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230329029044235",
+        "name": "南京大学仙林校区-27栋1号机 插座4",
+        "restmin": 191,
+        "usedmin": 409,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 19:54",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230329029045245",
+        "name": "南京大学仙林校区-27栋1号机 插座5",
+        "restmin": 541,
+        "usedmin": 59,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 01:44",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230329029046256",
+        "name": "南京大学仙林校区-27栋1号机 插座6",
+        "restmin": 260,
+        "usedmin": 100,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 21:03",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230329029047267",
+        "name": "南京大学仙林校区-27栋1号机 插座7",
+        "restmin": 432,
+        "usedmin": 168,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 23:55",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230329029048278",
+        "name": "南京大学仙林校区-27栋1号机 插座8",
+        "restmin": 197,
+        "usedmin": 403,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 20:00",
+        "update_time": 1727599389
+      },
+      {
+        "id": "O230329029049289",
+        "name": "南京大学仙林校区-27栋1号机 插座9",
+        "restmin": 135,
+        "usedmin": 465,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 18:58",
+        "update_time": 1727599389
+      },
+      {
+        "id": "O230329029050301",
+        "name": "南京大学仙林校区-27栋1号机 插座10",
+        "restmin": 207,
+        "usedmin": 393,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 20:10",
+        "update_time": 1727599389
+      }
+    ]
+  },
+  {
+    "id": "158748",
+    "name": "27栋2号机",
+    "outlets": [
+      {
+        "id": "O230330021361128",
+        "name": "南京大学仙林校区-27栋2号机 插座1",
+        "restmin": 306,
+        "usedmin": 294,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 21:49",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330021362141",
+        "name": "南京大学仙林校区-27栋2号机 插座2",
+        "restmin": 262,
+        "usedmin": 338,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 21:05",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330021363153",
+        "name": "南京大学仙林校区-27栋2号机 插座3",
+        "restmin": 315,
+        "usedmin": 285,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 21:58",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330021364166",
+        "name": "南京大学仙林校区-27栋2号机 插座4",
+        "restmin": 574,
+        "usedmin": 26,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 02:17",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330021365178",
+        "name": "南京大学仙林校区-27栋2号机 插座5",
+        "restmin": 468,
+        "usedmin": 132,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 00:31",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330021366191",
+        "name": "南京大学仙林校区-27栋2号机 插座6",
+        "restmin": 327,
+        "usedmin": 273,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 22:10",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330021367203",
+        "name": "南京大学仙林校区-27栋2号机 插座7",
+        "restmin": 283,
+        "usedmin": 317,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 21:26",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330021368215",
+        "name": "南京大学仙林校区-27栋2号机 插座8",
+        "restmin": 275,
+        "usedmin": 25,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 21:18",
+        "update_time": 1727599389
+      },
+      {
+        "id": "O230330021369227",
+        "name": "南京大学仙林校区-27栋2号机 插座9",
+        "restmin": 536,
+        "usedmin": 64,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 01:39",
+        "update_time": 1727599389
+      },
+      {
+        "id": "O230330021370239",
+        "name": "南京大学仙林校区-27栋2号机 插座10",
+        "restmin": 304,
+        "usedmin": 296,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 21:47",
+        "update_time": 1727599389
+      }
+    ]
+  },
+  {
+    "id": "158501",
+    "name": "27栋3号机",
+    "outlets": [
+      {
+        "id": "O230329028981622",
+        "name": "南京大学仙林校区-27栋3号机 插座1",
+        "restmin": 0,
+        "usedmin": 0,
+        "error": false,
+        "status": 0,
+        "msg": "空闲",
+        "available_time": "now",
+        "update_time": 1727599387
+      },
+      {
+        "id": "O230329028982633",
+        "name": "南京大学仙林校区-27栋3号机 插座2",
+        "restmin": 179,
+        "usedmin": 421,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 19:42",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230329028983643",
+        "name": "南京大学仙林校区-27栋3号机 插座3",
+        "restmin": 473,
+        "usedmin": 127,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 00:36",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230329028984655",
+        "name": "南京大学仙林校区-27栋3号机 插座4",
+        "restmin": 599,
+        "usedmin": 1,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 02:42",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230329028985666",
+        "name": "南京大学仙林校区-27栋3号机 插座5",
+        "restmin": 482,
+        "usedmin": 118,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 00:45",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230329028986677",
+        "name": "南京大学仙林校区-27栋3号机 插座6",
+        "restmin": 238,
+        "usedmin": 362,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 20:41",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230329028987688",
+        "name": "南京大学仙林校区-27栋3号机 插座7",
+        "restmin": 565,
+        "usedmin": 35,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 02:08",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230329028988699",
+        "name": "南京大学仙林校区-27栋3号机 插座8",
+        "restmin": 587,
+        "usedmin": 13,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 02:30",
+        "update_time": 1727599389
+      },
+      {
+        "id": "O230329028989710",
+        "name": "南京大学仙林校区-27栋3号机 插座9",
+        "restmin": 97,
+        "usedmin": 503,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 18:20",
+        "update_time": 1727599389
+      },
+      {
+        "id": "O230329028990722",
+        "name": "南京大学仙林校区-27栋3号机 插座10",
+        "restmin": 290,
+        "usedmin": 70,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 21:33",
+        "update_time": 1727599389
+      }
+    ]
+  },
+  {
+    "id": "158764",
+    "name": "27栋4号机",
+    "outlets": [
+      {
+        "id": "O230330021497854",
+        "name": "南京大学仙林校区-27栋4号机 插座1",
+        "restmin": 145,
+        "usedmin": 155,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 19:08",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330021498866",
+        "name": "南京大学仙林校区-27栋4号机 插座2",
+        "restmin": 566,
+        "usedmin": 34,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 02:09",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330021499878",
+        "name": "南京大学仙林校区-27栋4号机 插座3",
+        "restmin": 433,
+        "usedmin": 167,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 23:56",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330021500889",
+        "name": "南京大学仙林校区-27栋4号机 插座4",
+        "restmin": 519,
+        "usedmin": 81,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 01:22",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330021501901",
+        "name": "南京大学仙林校区-27栋4号机 插座5",
+        "restmin": 172,
+        "usedmin": 428,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 19:35",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330021502913",
+        "name": "南京大学仙林校区-27栋4号机 插座6",
+        "restmin": 274,
+        "usedmin": 326,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 21:17",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330021503925",
+        "name": "南京大学仙林校区-27栋4号机 插座7",
+        "restmin": 229,
+        "usedmin": 71,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 20:32",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330021504936",
+        "name": "南京大学仙林校区-27栋4号机 插座8",
+        "restmin": 289,
+        "usedmin": 11,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 21:32",
+        "update_time": 1727599389
+      },
+      {
+        "id": "O230330021505948",
+        "name": "南京大学仙林校区-27栋4号机 插座9",
+        "restmin": 297,
+        "usedmin": 303,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 21:40",
+        "update_time": 1727599389
+      },
+      {
+        "id": "O230330021506960",
+        "name": "南京大学仙林校区-27栋4号机 插座10",
+        "restmin": 95,
+        "usedmin": 505,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 18:18",
+        "update_time": 1727599389
+      }
+    ]
+  },
+  {
+    "id": "158666",
+    "name": "27栋5号机",
+    "outlets": [
+      {
+        "id": "O230330020589556",
+        "name": "南京大学仙林校区-27栋5号机 插座1",
+        "restmin": 272,
+        "usedmin": 28,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 21:15",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330020590568",
+        "name": "南京大学仙林校区-27栋5号机 插座2",
+        "restmin": 247,
+        "usedmin": 353,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 20:50",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330020591580",
+        "name": "南京大学仙林校区-27栋5号机 插座3",
+        "restmin": 238,
+        "usedmin": 362,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 20:41",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330020592592",
+        "name": "南京大学仙林校区-27栋5号机 插座4",
+        "restmin": 416,
+        "usedmin": 184,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 23:39",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330020593603",
+        "name": "南京大学仙林校区-27栋5号机 插座5",
+        "restmin": 136,
+        "usedmin": 464,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 18:59",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330020594615",
+        "name": "南京大学仙林校区-27栋5号机 插座6",
+        "restmin": 165,
+        "usedmin": 435,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 19:28",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330020595627",
+        "name": "南京大学仙林校区-27栋5号机 插座7",
+        "restmin": 549,
+        "usedmin": 51,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 01:52",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330020596639",
+        "name": "南京大学仙林校区-27栋5号机 插座8",
+        "restmin": 343,
+        "usedmin": 257,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 22:26",
+        "update_time": 1727599389
+      },
+      {
+        "id": "O230330020597651",
+        "name": "南京大学仙林校区-27栋5号机 插座9",
+        "restmin": 199,
+        "usedmin": 401,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 20:02",
+        "update_time": 1727599389
+      },
+      {
+        "id": "O230330020598662",
+        "name": "南京大学仙林校区-27栋5号机 插座10",
+        "restmin": 226,
+        "usedmin": 374,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 20:29",
+        "update_time": 1727599389
+      }
+    ]
+  },
+  {
+    "id": "158661",
+    "name": "27栋6号机",
+    "outlets": [
+      {
+        "id": "O230330020539520",
+        "name": "南京大学仙林校区-27栋6号机 插座1",
+        "restmin": 133,
+        "usedmin": 467,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 18:56",
+        "update_time": 1727599387
+      },
+      {
+        "id": "O230330020540531",
+        "name": "南京大学仙林校区-27栋6号机 插座2",
+        "restmin": 493,
+        "usedmin": 107,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 00:56",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330020541541",
+        "name": "南京大学仙林校区-27栋6号机 插座3",
+        "restmin": 208,
+        "usedmin": 392,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 20:11",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330020542552",
+        "name": "南京大学仙林校区-27栋6号机 插座4",
+        "restmin": 251,
+        "usedmin": 349,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 20:54",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330020543562",
+        "name": "南京大学仙林校区-27栋6号机 插座5",
+        "restmin": 561,
+        "usedmin": 39,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 02:04",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330020544573",
+        "name": "南京大学仙林校区-27栋6号机 插座6",
+        "restmin": 239,
+        "usedmin": 361,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 20:42",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330020545584",
+        "name": "南京大学仙林校区-27栋6号机 插座7",
+        "restmin": 473,
+        "usedmin": 127,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 00:36",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330020546594",
+        "name": "南京大学仙林校区-27栋6号机 插座8",
+        "restmin": 143,
+        "usedmin": 457,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 19:06",
+        "update_time": 1727599389
+      },
+      {
+        "id": "O230330020547605",
+        "name": "南京大学仙林校区-27栋6号机 插座9",
+        "restmin": 10,
+        "usedmin": 350,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 16:53",
+        "update_time": 1727599389
+      },
+      {
+        "id": "O230330020548615",
+        "name": "南京大学仙林校区-27栋6号机 插座10",
+        "restmin": 195,
+        "usedmin": 405,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 19:58",
+        "update_time": 1727599389
+      }
+    ]
+  },
+  {
+    "id": "158668",
+    "name": "27栋7号机",
+    "outlets": [
+      {
+        "id": "O230330020609918",
+        "name": "南京大学仙林校区-27栋7号机 插座1",
+        "restmin": 242,
+        "usedmin": 358,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 20:45",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330020610930",
+        "name": "南京大学仙林校区-27栋7号机 插座2",
+        "restmin": 193,
+        "usedmin": 407,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 19:56",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330020611941",
+        "name": "南京大学仙林校区-27栋7号机 插座3",
+        "restmin": 50,
+        "usedmin": 550,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 17:33",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330020612953",
+        "name": "南京大学仙林校区-27栋7号机 插座4",
+        "restmin": 254,
+        "usedmin": 346,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 20:57",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330020613965",
+        "name": "南京大学仙林校区-27栋7号机 插座5",
+        "restmin": 267,
+        "usedmin": 333,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 21:10",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330020614977",
+        "name": "南京大学仙林校区-27栋7号机 插座6",
+        "restmin": 513,
+        "usedmin": 87,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 01:16",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330020615989",
+        "name": "南京大学仙林校区-27栋7号机 插座7",
+        "restmin": 411,
+        "usedmin": 189,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 23:34",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230330020616001",
+        "name": "南京大学仙林校区-27栋7号机 插座8",
+        "restmin": 571,
+        "usedmin": 29,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 02:14",
+        "update_time": 1727599389
+      },
+      {
+        "id": "O230330020617013",
+        "name": "南京大学仙林校区-27栋7号机 插座9",
+        "restmin": 496,
+        "usedmin": 104,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 00:59",
+        "update_time": 1727599389
+      },
+      {
+        "id": "O230330020618025",
+        "name": "南京大学仙林校区-27栋7号机 插座10",
+        "restmin": 322,
+        "usedmin": 278,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 22:05",
+        "update_time": 1727599389
+      }
+    ]
+  },
+  {
+    "id": "117381",
+    "name": "游泳馆1号机",
+    "outlets": [
+      {
+        "id": "O220608012392225",
+        "name": "南京大学仙林校区-游泳馆1号机 插座1",
+        "restmin": 525,
+        "usedmin": 75,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 01:28",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012393235",
+        "name": "南京大学仙林校区-游泳馆1号机 插座2",
+        "restmin": 65535,
+        "usedmin": 89,
+        "error": false,
+        "status": 1,
+        "msg": "分钟计费模式",
+        "available_time": "unknown",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012394246",
+        "name": "南京大学仙林校区-游泳馆1号机 插座3",
+        "restmin": 533,
+        "usedmin": 67,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 01:36",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012395257",
+        "name": "南京大学仙林校区-游泳馆1号机 插座4",
+        "restmin": 498,
+        "usedmin": 102,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 01:01",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012396267",
+        "name": "南京大学仙林校区-游泳馆1号机 插座5",
+        "restmin": 65535,
+        "usedmin": 100,
+        "error": false,
+        "status": 1,
+        "msg": "分钟计费模式",
+        "available_time": "unknown",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012397278",
+        "name": "南京大学仙林校区-游泳馆1号机 插座6",
+        "restmin": 109,
+        "usedmin": 491,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 18:32",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012398289",
+        "name": "南京大学仙林校区-游泳馆1号机 插座7",
+        "restmin": 116,
+        "usedmin": 484,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 18:39",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012399299",
+        "name": "南京大学仙林校区-游泳馆1号机 插座8",
+        "restmin": 477,
+        "usedmin": 123,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 00:40",
+        "update_time": 1727599389
+      }
+    ]
+  },
+  {
+    "id": "117377",
+    "name": "游泳馆2号机",
+    "outlets": [
+      {
+        "id": "O220608012360387",
+        "name": "南京大学仙林校区-游泳馆2号机 插座1",
+        "restmin": 109,
+        "usedmin": 491,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 18:32",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012361397",
+        "name": "南京大学仙林校区-游泳馆2号机 插座2",
+        "restmin": 120,
+        "usedmin": 480,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 18:43",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012362406",
+        "name": "南京大学仙林校区-游泳馆2号机 插座3",
+        "restmin": 590,
+        "usedmin": 10,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 02:33",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012363417",
+        "name": "南京大学仙林校区-游泳馆2号机 插座4",
+        "restmin": 82,
+        "usedmin": 518,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 18:05",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012364427",
+        "name": "南京大学仙林校区-游泳馆2号机 插座5",
+        "restmin": 135,
+        "usedmin": 465,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 18:58",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012365437",
+        "name": "南京大学仙林校区-游泳馆2号机 插座6",
+        "restmin": 482,
+        "usedmin": 118,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 00:45",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012366447",
+        "name": "南京大学仙林校区-游泳馆2号机 插座7",
+        "restmin": 84,
+        "usedmin": 216,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 18:07",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012367468",
+        "name": "南京大学仙林校区-游泳馆2号机 插座8",
+        "restmin": 316,
+        "usedmin": 284,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 21:59",
+        "update_time": 1727599389
+      }
+    ]
+  },
+  {
+    "id": "117379",
+    "name": "第十餐厅1号机",
+    "outlets": [
+      {
+        "id": "O220608012376275",
+        "name": "南京大学仙林校区-第十餐厅1号机 插座1",
+        "restmin": 336,
+        "usedmin": 264,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 22:19",
+        "update_time": 1727599387
+      },
+      {
+        "id": "O220608012377285",
+        "name": "南京大学仙林校区-第十餐厅1号机 插座2",
+        "restmin": 228,
+        "usedmin": 372,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 20:31",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012378295",
+        "name": "南京大学仙林校区-第十餐厅1号机 插座3",
+        "restmin": 478,
+        "usedmin": 122,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 00:41",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012379305",
+        "name": "南京大学仙林校区-第十餐厅1号机 插座4",
+        "restmin": 546,
+        "usedmin": 54,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 01:49",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012380314",
+        "name": "南京大学仙林校区-第十餐厅1号机 插座5",
+        "restmin": 436,
+        "usedmin": 164,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 23:59",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012381324",
+        "name": "南京大学仙林校区-第十餐厅1号机 插座6",
+        "restmin": 227,
+        "usedmin": 373,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 20:30",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012382335",
+        "name": "南京大学仙林校区-第十餐厅1号机 插座7",
+        "restmin": 360,
+        "usedmin": 240,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 22:43",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012383344",
+        "name": "南京大学仙林校区-第十餐厅1号机 插座8",
+        "restmin": 254,
+        "usedmin": 46,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 20:57",
+        "update_time": 1727599389
+      }
+    ]
+  },
+  {
+    "id": "117392",
+    "name": "第十餐厅2号机",
+    "outlets": [
+      {
+        "id": "O220608012480938",
+        "name": "南京大学仙林校区-第十餐厅2号机 插座1",
+        "restmin": 291,
+        "usedmin": 309,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 21:34",
+        "update_time": 1727599387
+      },
+      {
+        "id": "O220608012481948",
+        "name": "南京大学仙林校区-第十餐厅2号机 插座2",
+        "restmin": 247,
+        "usedmin": 53,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 20:50",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012482958",
+        "name": "南京大学仙林校区-第十餐厅2号机 插座3",
+        "restmin": 73,
+        "usedmin": 527,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 17:56",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012483968",
+        "name": "南京大学仙林校区-第十餐厅2号机 插座4",
+        "restmin": 552,
+        "usedmin": 48,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 01:55",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012484979",
+        "name": "南京大学仙林校区-第十餐厅2号机 插座5",
+        "restmin": 375,
+        "usedmin": 225,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 22:58",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012485989",
+        "name": "南京大学仙林校区-第十餐厅2号机 插座6",
+        "restmin": 307,
+        "usedmin": 293,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 21:50",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012486999",
+        "name": "南京大学仙林校区-第十餐厅2号机 插座7",
+        "restmin": 185,
+        "usedmin": 415,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 19:48",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O220608012487009",
+        "name": "南京大学仙林校区-第十餐厅2号机 插座8",
+        "restmin": 441,
+        "usedmin": 159,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-30 00:04",
+        "update_time": 1727599389
+      }
+    ]
+  },
+  {
+    "id": "165087",
+    "name": "第十餐厅3号机",
+    "outlets": [
+      {
+        "id": "O230513027619893",
+        "name": "南京大学仙林校区十食堂3号机 插座1",
+        "restmin": 102,
+        "usedmin": 498,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 18:25",
+        "update_time": 1727599387
+      },
+      {
+        "id": "O230513027620905",
+        "name": "南京大学仙林校区十食堂3号机 插座2",
+        "restmin": 151,
+        "usedmin": 449,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 19:14",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230513027621917",
+        "name": "南京大学仙林校区十食堂3号机 插座3",
+        "restmin": 92,
+        "usedmin": 508,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 18:15",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230513027622928",
+        "name": "南京大学仙林校区十食堂3号机 插座4",
+        "restmin": 149,
+        "usedmin": 451,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 19:12",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230513027623940",
+        "name": "南京大学仙林校区十食堂3号机 插座5",
+        "restmin": 142,
+        "usedmin": 458,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 19:05",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230513027624951",
+        "name": "南京大学仙林校区十食堂3号机 插座6",
+        "restmin": 236,
+        "usedmin": 364,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 20:39",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230513027625963",
+        "name": "南京大学仙林校区十食堂3号机 插座7",
+        "restmin": 134,
+        "usedmin": 466,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 18:57",
+        "update_time": 1727599388
+      },
+      {
+        "id": "O230513027626974",
+        "name": "南京大学仙林校区十食堂3号机 插座8",
+        "restmin": 281,
+        "usedmin": 319,
+        "error": false,
+        "status": 4,
+        "msg": "固定金额模式",
+        "available_time": "09-29 21:24",
+        "update_time": 1727599389
+      }
+    ]
+  }
+]
