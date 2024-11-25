@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>南大仙林充电桩状态</title>
+</head>
+
+<body>
+  <style>
+    select {
+      padding: 5px;
+      margin-left: 10px;
+      border-radius: 5px;
+      border: 1px solid #ced4da;
+      font-size: 14px;
+    }
+
+    table {
+      width: 100% !important;
+      border-collapse: collapse !important;
+      margin-top: 10px !important;
+    }
+
+    table,
+    th,
+    td {
+      border: 1px solid black !important;
+      font-weight: bold !important;
+    }
+
+    th,
+    td {
+      padding: 8px !important;
+      text-align: left !important;
+    }
+
+    thead {
+      background-color: rgba(255, 255, 255, 0) !important;
+    }
+
+    tr {
+      background-color: rgba(255, 255, 255, 0) !important;
+    }
+
+    th {
+      position: sticky !important;
+      top: 0 !important;
+    }
+
+    .blue-text {
+      color: #00A0FF;
+    }
+
+    .yellow-text {
+      color: #FFB000;
+    }
+
+    .red-text {
+      color: #FF7030;
+    }
+  </style>
+
+
+  <div
+    class="flex flex-col items-center gap-4 rounded-md border p-6 text-neutral-900 dark:bg-opacity-10 dark:text-[#c4c4c4] md:flex md:flex-row bg-amber-50 dark:bg-amber-300 border-amber-300 justify-center my-4">
+    <svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" viewBox="0 0 28 28"
+      class="shrink-0 text-3xl md:mr-2 md:self-start md:text-left text-amber-500">
+      <path fill="currentColor"
+        d="M14 10.55a.75.75 0 0 1 .75.75v5a.75.75 0 0 1-1.5 0v-5a.75.75 0 0 1 .75-.75Zm0 10a1 1 0 1 0 0-2a1 1 0 0 0 0 2ZM12.039 5.207c.86-1.53 3.062-1.53 3.922 0l8.685 15.44c.844 1.5-.24 3.353-1.96 3.353H5.314c-1.721 0-2.805-1.853-1.961-3.353l8.685-15.44Zm2.615.735a.75.75 0 0 0-1.308 0l-8.685 15.44a.75.75 0 0 0 .654 1.118h17.37a.75.75 0 0 0 .654-1.118l-8.685-15.44Z">
+      </path>
+    </svg>
+    <div class="relative w-full">
+      <div class="markdown_md__SEzck w-full [&amp;>p:first-child]:mt-0">
+        <p class="paragraph"><span role="note" class="inline-block !inline"><span
+              class="inline items-center font-sans"><a class="shiro-link--underline"
+                href="https://www.do1e.cn/charge.html" target="_blank"
+                rel="noreferrer">https://www.do1e.cn/charge.html</a><i
+                class="i-mingcute-arrow-right-up-line translate-y-[2px] opacity-70"></i></span></span>
+          备案中，备案完成后恢复公网访问。<br>可用时间为预期可用时间，可能由于充满等原因提前结束</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="filter-container"><label for="filter-station">选择站点:</label><select id="filter-station">
+      <option value="">All</option>
+      <option value="05栋">05栋</option>
+      <option value="17栋">17栋</option>
+      <option value="18栋">18栋</option>
+      <option value="24栋">24栋</option>
+      <option value="26栋">26栋</option>
+      <option value="27栋">27栋</option>
+      <option value="天文学院">天文学院</option>
+      <option value="游泳馆">游泳馆</option>
+      <option value="第十餐厅">第十餐厅</option>
+    </select></div>
+
+  <table id="outletTable">
+    <thead>
+      <tr>
+        <th>Station</th>
+        <th>Name</th>
+        <th>Rest Minutes</th>
+        <th>Available Time</th>
+        <th>Used Minutes</th>
+        <th>Message</th>
+        <th>Update Time</th>
+      </tr>
+    </thead>
+    <tbody>
+    </tbody>
+  </table>
+
+
+  <p class="paragraph">后端代码开源在 <span role="note" class="inline-block !inline"><span
+        class="inline items-center font-sans"><span
+          class="mr-1 inline-flex [&amp;_svg]:inline [&amp;_svg]:!h-[0.8em]"><svg width="1em" height="1em"
+            viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg" class="text-[#1D2127] dark:text-[#FFFFFF]">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M7.5 0C3.35625 0 0 3.35625 0 7.5C0 10.8187 2.14687 13.6219 5.12812 14.6156C5.50312 14.6813 5.64375 14.4563 5.64375 14.2594C5.64375 14.0813 5.63438 13.4906 5.63438 12.8625C3.75 13.2094 3.2625 12.4031 3.1125 11.9812C3.02812 11.7656 2.6625 11.1 2.34375 10.9219C2.08125 10.7812 1.70625 10.4344 2.33438 10.425C2.925 10.4156 3.34688 10.9687 3.4875 11.1937C4.1625 12.3281 5.24063 12.0094 5.67188 11.8125C5.7375 11.325 5.93437 10.9969 6.15 10.8094C4.48125 10.6219 2.7375 9.975 2.7375 7.10625C2.7375 6.29062 3.02813 5.61562 3.50625 5.09062C3.43125 4.90312 3.16875 4.13437 3.58125 3.10312C3.58125 3.10312 4.20938 2.90625 5.64375 3.87188C6.24375 3.70313 6.88125 3.61875 7.51875 3.61875C8.15625 3.61875 8.79375 3.70313 9.39375 3.87188C10.8281 2.89688 11.4563 3.10312 11.4563 3.10312C11.8688 4.13437 11.6063 4.90312 11.5313 5.09062C12.0094 5.61562 12.3 6.28125 12.3 7.10625C12.3 9.98437 10.5469 10.6219 8.87813 10.8094C9.15 11.0437 9.38438 11.4938 9.38438 12.1969C9.38438 13.2 9.375 14.0063 9.375 14.2594C9.375 14.4563 9.51563 14.6906 9.89063 14.6156C12.8531 13.6219 15 10.8094 15 7.5C15 3.35625 11.6438 0 7.5 0Z"
+              fill="currentColor"></path>
+          </svg></span><a class="shiro-link--underline" href="https://github.com/Do1e/NJUCharge-backend" target="_blank"
+          rel="noreferrer">Do1e/NJUCharge-backend</a><i
+          class="i-mingcute-arrow-right-up-line translate-y-[2px] opacity-70"></i></span></span>，欢迎提交issues<br>前端（包括这一整个网站）基于
+    <span role="note" class="inline-block !inline"><span class="inline items-center font-sans"><span
+          class="mr-1 inline-flex [&amp;_svg]:inline [&amp;_svg]:!h-[0.8em]"><svg width="1em" height="1em"
+            viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg" class="text-[#1D2127] dark:text-[#FFFFFF]">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M7.5 0C3.35625 0 0 3.35625 0 7.5C0 10.8187 2.14687 13.6219 5.12812 14.6156C5.50312 14.6813 5.64375 14.4563 5.64375 14.2594C5.64375 14.0813 5.63438 13.4906 5.63438 12.8625C3.75 13.2094 3.2625 12.4031 3.1125 11.9812C3.02812 11.7656 2.6625 11.1 2.34375 10.9219C2.08125 10.7812 1.70625 10.4344 2.33438 10.425C2.925 10.4156 3.34688 10.9687 3.4875 11.1937C4.1625 12.3281 5.24063 12.0094 5.67188 11.8125C5.7375 11.325 5.93437 10.9969 6.15 10.8094C4.48125 10.6219 2.7375 9.975 2.7375 7.10625C2.7375 6.29062 3.02813 5.61562 3.50625 5.09062C3.43125 4.90312 3.16875 4.13437 3.58125 3.10312C3.58125 3.10312 4.20938 2.90625 5.64375 3.87188C6.24375 3.70313 6.88125 3.61875 7.51875 3.61875C8.15625 3.61875 8.79375 3.70313 9.39375 3.87188C10.8281 2.89688 11.4563 3.10312 11.4563 3.10312C11.8688 4.13437 11.6063 4.90312 11.5313 5.09062C12.0094 5.61562 12.3 6.28125 12.3 7.10625C12.3 9.98437 10.5469 10.6219 8.87813 10.8094C9.15 11.0437 9.38438 11.4938 9.38438 12.1969C9.38438 13.2 9.375 14.0063 9.375 14.2594C9.375 14.4563 9.51563 14.6906 9.89063 14.6156C12.8531 13.6219 15 10.8094 15 7.5C15 3.35625 11.6438 0 7.5 0Z"
+              fill="currentColor"></path>
+          </svg></span><a class="shiro-link--underline" href="https://github.com/mx-space" target="_blank"
+          rel="noreferrer">Mix Space</a><i
+          class="i-mingcute-arrow-right-up-line translate-y-[2px] opacity-70"></i></span></span> &amp; <span role="note"
+      class="inline-block !inline"><span class="inline items-center font-sans"><span
+          class="mr-1 inline-flex [&amp;_svg]:inline [&amp;_svg]:!h-[0.8em]"><svg width="1em" height="1em"
+            viewBox="0 0 15 15" xmlns="http://www.w3.org/2000/svg" class="text-[#1D2127] dark:text-[#FFFFFF]">
+            <path fill-rule="evenodd" clip-rule="evenodd"
+              d="M7.5 0C3.35625 0 0 3.35625 0 7.5C0 10.8187 2.14687 13.6219 5.12812 14.6156C5.50312 14.6813 5.64375 14.4563 5.64375 14.2594C5.64375 14.0813 5.63438 13.4906 5.63438 12.8625C3.75 13.2094 3.2625 12.4031 3.1125 11.9812C3.02812 11.7656 2.6625 11.1 2.34375 10.9219C2.08125 10.7812 1.70625 10.4344 2.33438 10.425C2.925 10.4156 3.34688 10.9687 3.4875 11.1937C4.1625 12.3281 5.24063 12.0094 5.67188 11.8125C5.7375 11.325 5.93437 10.9969 6.15 10.8094C4.48125 10.6219 2.7375 9.975 2.7375 7.10625C2.7375 6.29062 3.02813 5.61562 3.50625 5.09062C3.43125 4.90312 3.16875 4.13437 3.58125 3.10312C3.58125 3.10312 4.20938 2.90625 5.64375 3.87188C6.24375 3.70313 6.88125 3.61875 7.51875 3.61875C8.15625 3.61875 8.79375 3.70313 9.39375 3.87188C10.8281 2.89688 11.4563 3.10312 11.4563 3.10312C11.8688 4.13437 11.6063 4.90312 11.5313 5.09062C12.0094 5.61562 12.3 6.28125 12.3 7.10625C12.3 9.98437 10.5469 10.6219 8.87813 10.8094C9.15 11.0437 9.38438 11.4938 9.38438 12.1969C9.38438 13.2 9.375 14.0063 9.375 14.2594C9.375 14.4563 9.51563 14.6906 9.89063 14.6156C12.8531 13.6219 15 10.8094 15 7.5C15 3.35625 11.6438 0 7.5 0Z"
+              fill="currentColor"></path>
+          </svg></span><a class="shiro-link--underline" href="https://github.com/innei/Shiro" target="_blank"
+          rel="noreferrer">Shiro</a><i
+          class="i-mingcute-arrow-right-up-line translate-y-[2px] opacity-70"></i></span></span>。</p>
+  <p><span role="note" class="inline-block !inline"><span class="inline items-center font-sans"><a
+          class="shiro-link--underline"
+          href="https://alist.do1e.cn/%E5%8D%97%E5%A4%A7%E4%BB%99%E6%9E%97%E5%85%85%E7%94%B5%E6%A1%A9%E7%8A%B6%E6%80%81%E5%8E%86%E5%8F%B2%E6%95%B0%E6%8D%AE"
+          target="_blank" rel="noreferrer">点击此处下载历史数据</a><i
+          class="i-mingcute-arrow-right-up-line translate-y-[2px] opacity-70"></i></span></span></p>
+  <p class="paragraph">剩余时间restmin的3种颜色：</p>
+  <ol start="1">
+    <li><code class="rounded-md bg-zinc-200 px-2 font-mono dark:bg-neutral-800">restmin &lt;= 20</code>：<span
+        style="color: rgb(0, 160, 255);">0x00A0FF █</span></li>
+    <li><code class="rounded-md bg-zinc-200 px-2 font-mono dark:bg-neutral-800">20 &lt; restmin &lt;= 120</code>：<span
+        style="color: rgb(255, 176, 0);">0xFFB000 █</span></li>
+    <li><code class="rounded-md bg-zinc-200 px-2 font-mono dark:bg-neutral-800">restmin &gt; 120</code>：<span
+        style="color: rgb(255, 112, 48);">0xFF7030 █</span></li>
+  </ol>
+
+  <script>
+    // 获取表格中的数据并赋予颜色
+    function fetchData() {
+      fetch('/api/v2/objects/file/outlets.json', { cache: 'no-store' })
+        .then(response => response.json())
+        .then(data => {
+          const tableBody = document.getElementById('outletTable').getElementsByTagName('tbody')[0];
+          const rows = tableBody.getElementsByTagName('tr');
+          while (tableBody.firstChild) {
+            tableBody.removeChild(tableBody.firstChild);
+          }
+          data.forEach(outlet => {
+            const row = tableBody.insertRow();
+            row.insertCell(0).textContent = outlet.station;
+            row.insertCell(1).textContent = outlet.name;
+            row.insertCell(2).textContent = outlet.restmin;
+            row.insertCell(3).textContent = outlet.available_time;
+            row.insertCell(4).textContent = outlet.usedmin;
+            row.insertCell(5).textContent = outlet.msg;
+            row.insertCell(6).textContent = outlet.update_time;
+
+            if (outlet.restmin <= 20) {
+              row.cells[2].className = 'blue-text';
+            } else if (outlet.restmin > 120) {
+              row.cells[2].className = 'red-text';
+            } else {
+              row.cells[2].className = 'yellow-text';
+            }
+
+            if (outlet.msg === "空闲") {
+              row.cells[5].className = 'blue-text';
+            } else if (outlet.msg === "故障") {
+              row.cells[5].className = 'red-text';
+            } else {
+              row.cells[5].className = 'yellow-text';
+            }
+          });
+        })
+        .catch(error => {
+          console.error('Error fetching data: ', error);
+        })
+        .finally(() => {
+          filterTable();
+        });
+    }
+    fetchData();
+  </script>
+  <script>
+    // 筛选功能实现
+    var filter = document.getElementById('filter-station');
+    var urlParams = new URLSearchParams(window.location.search);
+    var initialFilter = urlParams.get('filter') || '';
+    filter.value = initialFilter;
+    filterTable();
+
+    filter.addEventListener('change', function () {
+      var selectedValue = filter.value;
+      if (selectedValue === '') {
+        urlParams.delete('filter');
+      } else {
+        urlParams.set('filter', selectedValue);
+      }
+      window.history.replaceState({}, '', `${location.pathname}?${urlParams}`);
+      filterTable();
+    });
+
+    function filterTable() {
+      var rows = document.getElementsByTagName('tr');
+      for (var i = 1; i < rows.length; i++) {
+        var row = rows[i];
+        var name = row.children[0].textContent.toLowerCase();
+        var nameFilter = filter.value.toLowerCase();
+        if (name.indexOf(nameFilter) !== -1 || nameFilter === '') {
+          row.style.display = 'table-row';
+        } else {
+          row.style.display = 'none';
+        }
+      }
+    }
+  </script>
+</body>
+
+</html>
