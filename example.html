@@ -159,7 +159,7 @@
   <script>
     // 获取表格中的数据并赋予颜色
     function fetchData() {
-      fetch('/api/v2/objects/file/outlets.json', { cache: 'no-store' })
+      fetch('/outlets.json', { cache: 'no-store' })
         .then(response => response.json())
         .then(data => {
           const tableBody = document.getElementById('outletTable').getElementsByTagName('tbody')[0];
