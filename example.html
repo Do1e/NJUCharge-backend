@@ -218,7 +218,11 @@
       } else {
         urlParams.set('filter', selectedValue);
       }
-      window.history.replaceState({}, '', `${location.pathname}?${urlParams}`);
+      if (urlParams.toString() === '') {
+        window.history.replaceState({}, '', location.pathname);
+      } else {
+        window.history.replaceState({}, '', `${location.pathname}?${urlParams}`);
+      }
       filterTable();
     });
 
