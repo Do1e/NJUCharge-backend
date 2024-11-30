@@ -11,4 +11,4 @@
 
 查看实例HTML：
 1. 在命令行启动一个http服务器：`python -m http.server 8000`
-2. 访问`http://localhost:8000/example.html`
+2. 访问`http://localhost:8000/example1.html` 或 `http://localhost:8000/example2.html`
