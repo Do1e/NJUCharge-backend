@@ -131,67 +131,13 @@
           <label for="filter-station">选择站点:</label>
           <select id="filter-station">
             <option value="">All</option>
-            <option value="05栋">05栋</option>
-            <option value="17栋">17栋</option>
-            <option value="18栋">18栋</option>
-            <option value="24栋">24栋</option>
-            <option value="26栋">26栋</option>
-            <option value="27栋">27栋</option>
-            <option value="天文学院">天文学院</option>
-            <option value="游泳馆">游泳馆</option>
-            <option value="第十餐厅">第十餐厅</option>
           </select>
         </div></th>
         <th>空闲</th>
         <th>20分钟内</th>
       </tr>
     </thead>
-    <tbody>
-      <tr>
-        <td>05栋</td>
-        <td style="color: #808080" class="table-unoccupied-05栋">0</td>
-        <td style="color: #808080" class="table-less20-05栋">0</td>
-      </tr>
-      <tr>
-        <td>17栋</td>
-        <td style="color: #808080" class="table-unoccupied-17栋">0</td>
-        <td style="color: #808080" class="table-less20-17栋">0</td>
-      </tr>
-      <tr>
-        <td>18栋</td>
-        <td style="color: #808080" class="table-unoccupied-18栋">0</td>
-        <td style="color: #808080" class="table-less20-18栋">0</td>
-      </tr>
-      <tr>
-        <td>24栋</td>
-        <td style="color: #808080" class="table-unoccupied-24栋">0</td>
-        <td style="color: #808080" class="table-less20-24栋">0</td>
-      </tr>
-      <tr>
-        <td>26栋</td>
-        <td style="color: #808080" class="table-unoccupied-26栋">0</td>
-        <td style="color: #808080" class="table-less20-26栋">0</td>
-      </tr>
-      <tr>
-        <td>27栋</td>
-        <td style="color: #808080" class="table-unoccupied-27栋">0</td>
-        <td style="color: #808080" class="table-less20-27栋">0</td>
-      </tr>
-      <tr>
-        <td>天文学院</td>
-        <td style="color: #808080" class="table-unoccupied-天文学院">0</td>
-        <td style="color: #808080" class="table-less20-天文学院">0</td>
-      </tr>
-      <tr>
-        <td>游泳馆</td>
-        <td style="color: #808080" class="table-unoccupied-游泳馆">0</td>
-        <td style="color: #808080" class="table-less20-游泳馆">0</td>
-      </tr>
-      <tr>
-        <td>第十餐厅</td>
-        <td style="color: #808080" class="table-unoccupied-第十餐厅">0</td>
-        <td style="color: #808080" class="table-less20-第十餐厅">0</td>
-      </tr>
+    <tbody id="table-of-unoccupied">
     </tbody>
   </table>
 
@@ -241,9 +187,33 @@ function fetchData() {
   fetch('/outlets.json', { cache: 'no-store' })
     .then(response => response.json())
     .then(data => {
+      let stations = new Set();
+      for (const item of data) {
+        stations.add(item.station);
+      }
+      const sortedStations = Array.from(stations).sort();
+
+      // 更新选择框
+      let length = filter.options.length;
+      if (length === 1) {
+        for (const station of sortedStations) {
+          let option = document.createElement('option');
+          option.value = station;
+          option.innerText = station;
+          filter.appendChild(option);
+        }
+      }
+
+      // 更新时间
       document.getElementById('updatetime').innerText = data[0].update_time.slice(0, -3);
+
+      // 更新页面
       let num_unoccupied = {};
       let num_less20 = {};
+      for (const station of sortedStations) {
+        num_unoccupied[station] = 0;
+        num_less20[station] = 0;
+      }
       for (const item of data) {
         if (document.getElementById(item.station + item.name)) {
           continue;
@@ -355,23 +325,22 @@ function fetchData() {
         }
         list.appendChild(div);
       }
-      for (const station in num_unoccupied) {
-        let element = document.querySelector(`.table-unoccupied-${station}`);
-        if (element) {
-          element.innerText = num_unoccupied[station];
-          if (num_unoccupied[station] > 0) {
-            element.style.color = '#00A0FF';
-            element.style.fontWeight = 'bold';
+
+      // 更新占用情况
+      let table = document.getElementById('table-of-unoccupied');
+      length = table.rows.length;
+      if (length === 0) {
+        for (const station of sortedStations) {
+          let row = table.insertRow();
+          row.insertCell().innerText = station;
+          let cell = row.insertCell();
+          cell.innerText = num_unoccupied[station];
+          if (num_unoccupied[station] === 0) {
+            cell.style.color = '#808080';
           }
-        }
-      }
-      for (const station in num_less20) {
-        let element = document.querySelector(`.table-less20-${station}`);
-        if (element) {
-          element.innerText = num_less20[station];
-          if (num_less20[station] > 0) {
-            element.style.color = '#00A0FF';
-            element.style.fontWeight = 'bold';
+          else {
+            cell.style.color = '#00A0FF';
+            cell.style.fontWeight = 'bold';
           }
         }
       }
