@@ -30,12 +30,15 @@ def get_outlet_status(outlet_id, debug=False):
         if msg == '空闲':
             restmin = 0
         elif status == 1:
-            feePerHour = float(resp['data']['powerFee']['billingFee'].replace('元/小时', ''))
-            feePerMinute = 0
-            for item in resp['data']['billListDtoList'][0]['propertyList']:
-                if abs(item['dFeePerHour'] - feePerHour) < 1e-6:
-                    feePerMinute = item['dFeePerMin']
-                    break
+            try:
+                feePerHour = float(resp['data']['powerFee']['billingFee'].replace('元/小时', ''))
+                feePerMinute = 0
+                for item in resp['data']['billListDtoList'][0]['propertyList']:
+                    if abs(item['dFeePerHour'] - feePerHour) < 1e-6:
+                        feePerMinute = item['dFeePerMin']
+                        break
+            except ValueError:
+                feePerMinute = 0
             if feePerMinute == 0:
                 restmin = 65535
             else:
