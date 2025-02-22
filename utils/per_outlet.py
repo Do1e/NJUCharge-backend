@@ -22,11 +22,29 @@ def get_outlet_status(outlet_id, debug=False):
             msg = '分钟计费模式'
         elif status == 4:
             msg = '固定金额模式'
+        elif status == 5:
+            msg = '电度计费模式'
         else:
             msg = '未知'
-        restmin = resp['data']['restmin'] if status == 4 or msg == '空闲' else 65535
         usedmin = resp['data']['usedmin']
-        if status == 4:
+        if msg == '空闲':
+            restmin = 0
+        elif status == 1:
+            feePerHour = float(resp['data']['powerFee']['billingFee'].replace('元/小时', ''))
+            feePerMinute = 0
+            for item in resp['data']['billListDtoList'][0]['propertyList']:
+                if abs(item['dFeePerHour'] - feePerHour) < 1e-6:
+                    feePerMinute = item['dFeePerMin']
+                    break
+            if feePerMinute == 0:
+                restmin = 65535
+            else:
+                restmin = int((resp['data']['userSelectAmount'] - resp['data']['usedfee']) / feePerMinute)
+        elif status == 4:
+            restmin = resp['data']['restmin']
+        else:
+            restmin = 65535
+        if status == 1 or status == 4:
             available_time = datetime.datetime.now() + datetime.timedelta(minutes=restmin)
             available_time = available_time.strftime('%m-%d %H:%M')
         elif status == 0 and not error:

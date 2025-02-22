@@ -21,6 +21,17 @@ for station in status:
         outlet["station"] = station_name[: -len(outlet["name"].split(" ")[0])]
         outlets.append(outlet)
 
-outlets.sort(key=lambda x: (x["restmin"], x["msg"]))
+def sort_key(outlet):
+    msg_priority = {
+        "空闲": 0,
+        "固定金额模式": 1,
+        "分钟计费模式": 2,
+        "电度计费模式": 2,
+        "故障": 3,
+        "未知": 4
+    }
+    return (msg_priority.get(outlet["msg"], 5), outlet["restmin"], -outlet["usedmin"])
+
+outlets.sort(key=sort_key)
 with open("outlets.json", "w", encoding="utf-8") as f:
     json.dump(outlets, f, ensure_ascii=False, indent=2)
