@@ -5,351 +5,388 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>南大仙林充电桩状态</title>
-<style>
-  select {
-    padding: 5px;
-    margin-left: 10px;
-    border-radius: 5px;
-    border: 1px solid #ced4da;
-    font-size: 14px;
-  }
-  .outletslist {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 8px;
-    box-sizing: border-box;
-  }
-  .outlet {
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    padding: 12px;
-    flex-direction: column;
-    justify-content: space-between;
-    width: calc(25% - 48px);
-    box-sizing: border-box;
-    flex-grow: 1;
-  }
-  @media (max-width: 1000px) {
-    .outlet {
-      width: calc(33.33333% - 32px);
+  <style>
+    select {
+      padding: 5px;
+      margin-left: 10px;
+      margin-right: 10px;
+      border-radius: 5px;
+      border: 1px solid #ced4da;
+      font-size: 12px;
     }
-  }
-  @media (max-width: 600px) {
-    .outlet {
-      width: calc(50% - 16px);
+    .outletslist {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      box-sizing: border-box;
     }
-  }
-  @media (max-width: 400px) {
     .outlet {
-      width: 100%;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 12px;
+      flex-direction: column;
+      justify-content: space-between;
+      width: calc(25% - 48px);
+      box-sizing: border-box;
+      flex-grow: 1;
     }
-  }
-  .outlet.unoccupied {
-    background-color: #7cff9b40;
-  }
-  .outlet.restmin-1-20 {
-    background-color: #7fceff40;
-  }
-  .outlet.restmin-21-120 {
-    background-color: #ffdc7a40;
-  }
-  .outlet-header {
-    display: flex;
-    align-items: center;
-    font-weight: bold;
-    justify-content: flex-start;
-    gap: 8px;
-  }
-  .outlet-updatetime {
-    display: flex;
-    gap: 4px;
-    align-items: center;
-    font-size: 12px;
-    color: #888;
-  }
-  .outlet-status {
-    flex-wrap: wrap;
-    align-items: center;
-    font-size: 14px;
-  }
-  .outlet-status-unoccupied {
-    color: #00A0FF;
-    font-weight: bold;
-  }
-  .outlet-status-restmin-1-20 {
-    color: #00A0FF;
-  }
-  .outlet-status-restmin-21-120 {
-    color: #FFB000;
-  }
-  .outlet-status-restmin-121-unknow, .outlet-status-error, .outlet-status-unkown {
-    color: #FF7030;
-  }
-  .outlet-msg-error {
-    color: #FF0000;
-  }
-  .outlet-msg {
-    color: #666;
-    font-size: 14px;
-  }
-  .outlet-updatetime {
-    color: #888;
-    font-size: 12px;
-  }
-  table {
-    width: 100% !important;
-    border-collapse: collapse !important;
-    margin-top: 10px !important;
-  }
-  table, th, td {
-    border: 1px solid #555 !important;
-  }
-  th, td {
-    padding: 8px !important;
-    text-align: left !important;
-  }
-  thead {
-    background-color: rgba(255, 255, 255, 0) !important;
-  }
-  tr {
-    background-color: rgba(255, 255, 255, 0) !important;
-  }
-  th {
-    position: sticky !important;
-    top: 0 !important;
-    width: calc(100% / 3) !important;
-  }
-</style>
+    @media (max-width: 1000px) {
+      .outlet {
+        width: calc(33.33333% - 32px);
+      }
+    }
+    @media (max-width: 600px) {
+      .outlet {
+        width: calc(50% - 16px);
+      }
+      .outlet-header {
+        flex-direction: column !important;
+        align-items: flex-start !important;
+      }
+    }
+    .outlet.unoccupied {
+      background-color: #7cff9b40;
+    }
+    .outlet.restmin-1-20 {
+      background-color: #7fceff40;
+    }
+    .outlet.restmin-21-120 {
+      background-color: #ffdc7a40;
+    }
+    .outlet-header {
+      display: flex;
+      align-items: center;
+      font-weight: bold;
+      justify-content: flex-start;
+      font-size: 14px;
+    }
+    .outlet-station {
+      margin-right: 8px;
+    }
+    .outlet-status {
+      flex-wrap: wrap;
+      align-items: center;
+      font-size: 12px;
+    }
+    .outlet-status-unoccupied {
+      color: #00A0FF;
+      font-weight: bold;
+    }
+    .outlet-status-restmin-1-20 {
+      color: #00A0FF;
+    }
+    .outlet-status-restmin-21-120 {
+      color: #FFB000;
+    }
+    .outlet-status-restmin-121-unknow, .outlet-status-error, .outlet-status-unkown {
+      color: #FF7030;
+    }
+    .outlet-msg-error {
+      color: #FF0000;
+    }
+    .outlet-msg {
+      color: #666;
+      font-size: 10px;
+    }
+    table {
+      width: 100% !important;
+      border-collapse: collapse !important;
+      margin-top: 10px !important;
+    }
+    table, th, td {
+      border: 1px solid #555 !important;
+    }
+    th, td {
+      padding: 8px !important;
+      text-align: left !important;
+    }
+    thead {
+      background-color: rgba(255, 255, 255, 0) !important;
+    }
+    tr {
+      background-color: rgba(255, 255, 255, 0) !important;
+    }
+    th {
+      position: sticky !important;
+      top: 0 !important;
+      width: calc(100% / 4) !important;
+    }
+  </style>
 </head>
 
 <body>
 
+  <div style="display: flex;">
+    选择站点：
+    <select id="filter-station">
+      <option value="">All</option>
+    </select>
+    更新时间：<div id="updatetime"></div>
+  </div>
   <table>
     <thead>
       <tr>
         <th><div class="filter-container">
-          <label for="filter-station">选择站点:</label>
-          <select id="filter-station">
-            <option value="">All</option>
-          </select>
+          <label for="filter-station">站点</label>
         </div></th>
         <th>空闲</th>
         <th>20分钟内</th>
+        <th>120分钟内</th>
       </tr>
     </thead>
     <tbody id="table-of-unoccupied">
     </tbody>
   </table>
 
-  <div style="display: flex;">更新时间：<div id="updatetime"></div></div>
-
   <div class="outletslist"></div>
-<script>
-var list = document.querySelector('.outletslist');
-var filter = document.getElementById('filter-station');
-var urlParams = new URLSearchParams(window.location.search);
-var initialFilter = urlParams.get('filter') || '';
-filter.value = initialFilter;
-fetchData();
-filterTable();
-
-filter.addEventListener('change', function () {
-  var selectedValue = filter.value;
-  if (selectedValue === '') {
-    urlParams.delete('filter');
-  } else {
-    urlParams.set('filter', selectedValue);
-  }
-  if (urlParams.toString() === '') {
-    window.history.replaceState({}, '', location.pathname);
-  } else {
-    window.history.replaceState({}, '', `${location.pathname}?${urlParams}`);
-  }
-  filterTable();
-});
-
-
-function filterTable() {
-  var divs = document.getElementsByClassName('outlet');
-  for (var i = 0; i < divs.length; i++) {
-    var div = divs[i];
-    var station = div.querySelector('.outlet-station').innerText;
-    if (filter.value === '' || station === filter.value) {
-      div.style.display = '';
-    } else {
-      div.style.display = 'none';
-    }
-  }
-}
-
-
-function fetchData() {
-  fetch('/outlets.json', { cache: 'no-store' })
-    .then(response => response.json())
-    .then(data => {
-      let stations = new Set();
-      for (const item of data) {
-        stations.add(item.station);
+  <script>
+    var list = document.querySelector('.outletslist');
+    var filter = document.getElementById('filter-station');
+    var urlParams = new URLSearchParams(window.location.search);
+    var initialFilter = urlParams.get('filter') || '';
+    fetchData();
+    filterTable();
+    
+    filter.addEventListener('change', function () {
+      var selectedValue = filter.value;
+      if (selectedValue === '') {
+        urlParams.delete('filter');
+      } else {
+        urlParams.set('filter', selectedValue);
       }
-      const sortedStations = Array.from(stations).sort();
-
-      // 更新选择框
-      let length = filter.options.length;
-      if (length === 1) {
-        for (const station of sortedStations) {
-          let option = document.createElement('option');
-          option.value = station;
-          option.innerText = station;
-          filter.appendChild(option);
-        }
+      if (urlParams.toString() === '') {
+        window.history.replaceState({}, '', location.pathname);
+      } else {
+        window.history.replaceState({}, '', `${location.pathname}?${urlParams}`);
       }
-
-      // 更新时间
-      document.getElementById('updatetime').innerText = data[0].update_time.slice(0, -3);
-
-      // 更新页面
-      let num_unoccupied = {};
-      let num_less20 = {};
-      for (const station of sortedStations) {
-        num_unoccupied[station] = 0;
-        num_less20[station] = 0;
-      }
-      for (const item of data) {
-        if (document.getElementById(item.station + item.name)) {
-          continue;
-        }
-        if (item.restmin === 0) {
-          num_unoccupied[item.station] = (num_unoccupied[item.station] || 0) + 1;
-        } else if (item.restmin <= 20) {
-          num_less20[item.station] = (num_less20[item.station] || 0) + 1;
-        }
-        let div = document.createElement('div');
-        div.id = item.station + item.name;
-        if (item.restmin === 0) {
-          div.className = 'outlet unoccupied';
-          div.innerHTML = `
-            <div class="outlet-header">
-              <div class="outlet-station">${item.station}</div>
-              <div class="outlet-name">${item.name}</div>
-            </div>
-            <div class="outlet-status">
-              <div class="outlet-status-unoccupied">当前可用</div>
-            </div>
-            <div class="outlet-msg">
-              <div class="outlet-msg-unoccupied">${item.msg}</div>
-            </div>
-          `;
-        } else if (item.restmin <= 20) {
-          div.className = 'outlet restmin-1-20';
-          div.innerHTML = `
-            <div class="outlet-header">
-              <div class="outlet-station">${item.station}</div>
-              <div class="outlet-name">${item.name}</div>
-            </div>
-            <div class="outlet-status">
-              <div class="outlet-status-restmin-1-20">
-                <div class="outlet-status-restmin-detail">预计等待${item.restmin}分钟</div>
-                <div class="outlet-status-availabletime-detail">${item.available_time}</div>
-              </div>
-              <div class="outlet-status-usedmin">已使用${item.usedmin}分钟</div>
-            </div>
-            <div class="outlet-msg">
-              <div class="outlet-msg-know">${item.msg}</div>
-            </div>
-          `;
-        } else if (item.restmin <= 120) {
-          div.className = 'outlet restmin-21-120';
-          div.innerHTML = `
-            <div class="outlet-header">
-              <div class="outlet-station">${item.station}</div>
-              <div class="outlet-name">${item.name}</div>
-            </div>
-            <div class="outlet-status">
-              <div class="outlet-status-restmin-21-120">
-                <div class="outlet-status-restmin-detail">预计等待${item.restmin}分钟</div>
-                <div class="outlet-status-availabletime-detail">${item.available_time}</div>
-              </div>
-              <div class="outlet-status-usedmin">已使用${item.usedmin}分钟</div>
-            </div>
-            <div class="outlet-msg">
-              <div class="outlet-msg-know">${item.msg}</div>
-            </div>
-          `;
-        } else if (item.restmin < 65535) {
-          div.className = 'outlet restmin-121-unknow';
-          div.innerHTML = `
-            <div class="outlet-header">
-              <div class="outlet-station">${item.station}</div>
-              <div class="outlet-name">${item.name}</div>
-            </div>
-            <div class="outlet-status">
-              <div class="outlet-status-restmin-121-unknow">
-                <div class="outlet-status-restmin-detail">预计等待${item.restmin}分钟</div>
-                <div class="outlet-status-availabletime-detail">${item.available_time}</div>
-              </div>
-              <div class="outlet-status-usedmin">已使用${item.usedmin}分钟</div>
-            </div>
-            <div class="outlet-msg">
-              <div class="outlet-msg-know">${item.msg}</div>
-            </div>
-          `;
-        } else if (item.restmin === 65535 && item.msg === '分钟计费模式') {
-          div.className = 'outlet unkown';
-          div.innerHTML = `
-            <div class="outlet-header">
-              <div class="outlet-station">${item.station}</div>
-              <div class="outlet-name">${item.name}</div>
-            </div>
-            <div class="outlet-status">
-              <div class="outlet-status-unkown">可用时间未知</div>
-              <div class="outlet-status-usedmin">已使用${item.usedmin}分钟</div>
-            </div>
-            <div class="outlet-msg">
-              <div class="outlet-msg-unknow">${item.msg}</div>
-            </div>
-          `;
-        } else {
-          div.className = 'outlet error';
-          div.innerHTML = `
-            <div class="outlet-header">
-              <div class="outlet-station">${item.station}</div>
-              <div class="outlet-name">${item.name}</div>
-            </div>
-            <div class="outlet-status">
-              <div class="outlet-status-error">可用时间未知</div>
-            </div>
-            <div class="outlet-msg">
-              <div class="outlet-msg-error">${item.msg}</div>
-            </div>
-          `;
-        }
-        list.appendChild(div);
-      }
-
-      // 更新占用情况
-      let table = document.getElementById('table-of-unoccupied');
-      length = table.rows.length;
-      if (length === 0) {
-        for (const station of sortedStations) {
-          let row = table.insertRow();
-          row.insertCell().innerText = station;
-          let cell = row.insertCell();
-          cell.innerText = num_unoccupied[station];
-          if (num_unoccupied[station] === 0) {
-            cell.style.color = '#808080';
-          }
-          else {
-            cell.style.color = '#00A0FF';
-            cell.style.fontWeight = 'bold';
-          }
-        }
-      }
-    }).catch(error => {
-      console.error('Error:', error);
-    }).finally(() => {
       filterTable();
     });
-}
-</script>
+    
+    
+    function filterTable() {
+      var divs = document.getElementsByClassName('outlet');
+      for (var i = 0; i < divs.length; i++) {
+        var div = divs[i];
+        var station = div.querySelector('.outlet-station').innerText;
+        if (filter.value === '' || station === filter.value) {
+          div.style.display = '';
+        } else {
+          div.style.display = 'none';
+        }
+      }
+    }
+    
+    
+    function fetchData() {
+      fetch('/outlets.json', { cache: 'no-store' })
+        .then(response => response.json())
+        .then(data => {
+          let stations = new Set();
+          for (const item of data) {
+            stations.add(item.station);
+          }
+          const sortedStations = Array.from(stations).sort();
+    
+          // 更新选择框
+          let length = filter.options.length;
+          if (length === 1) {
+            for (const station of sortedStations) {
+              let option = document.createElement('option');
+              option.value = station;
+              option.innerText = station;
+              filter.appendChild(option);
+            }
+          }
+          filter.value = initialFilter;
+    
+          // 更新时间
+          const updatetime = data[0].update_time.slice(0, -3);
+          document.getElementById('updatetime').innerText = updatetime;
+          const updateTimeElem = document.getElementById('updatetime');
+          const timeStr = updatetime;
+          const [datePart, timePart] = timeStr.split(' ');
+          const [month, day] = datePart.split('-');
+          const [hours, minutes] = timePart.split(':');
+          const currentYear = new Date().getFullYear();
+          const updateDate = new Date(currentYear, month - 1, day, hours, minutes);
+          const now = new Date();
+          const diffMinutes = Math.floor((now.getTime() - updateDate.getTime()) / (1000 * 60));
+          if (diffMinutes >= 3) {
+            updateTimeElem.classList.add('bg-red-100');
+            updateTimeElem.classList.add('dark:bg-red-900');
+            updateTimeElem.style.padding = '2px 5px';
+            updateTimeElem.style.borderRadius = '4px';
+          }
+    
+          // 更新页面
+          let num_unoccupied = {};
+          let num_less20 = {};
+          let num_less120 = {};
+          for (const station of sortedStations) {
+            num_unoccupied[station] = 0;
+            num_less20[station] = 0;
+            num_less120[station] = 0;
+          }
+          for (const item of data) {
+            if (document.getElementById(item.station + item.name)) {
+              continue;
+            }
+            if (item.restmin === 0) {
+              num_unoccupied[item.station] = (num_unoccupied[item.station] || 0) + 1;
+            } else {
+              if (item.restmin <= 20) {
+                num_less20[item.station] = (num_less20[item.station] || 0) + 1;
+              }
+              if (item.restmin <= 120) {
+                num_less120[item.station] = (num_less120[item.station] || 0) + 1;
+              }
+            }
+            let div = document.createElement('div');
+            div.id = item.station + item.name;
+            if (item.restmin === 0) {
+              div.className = 'outlet unoccupied';
+              div.innerHTML = `
+                <div class="outlet-header">
+                  <div class="outlet-station">${item.station}</div>
+                  <div class="outlet-name">${item.name}</div>
+                </div>
+                <div class="outlet-status">
+                  <div class="outlet-status-unoccupied">当前可用</div>
+                </div>
+                <div class="outlet-msg">
+                  <div class="outlet-msg-unoccupied">${item.msg}</div>
+                </div>
+              `;
+            } else if (item.restmin <= 20) {
+              div.className = 'outlet restmin-1-20';
+              div.innerHTML = `
+                <div class="outlet-header">
+                  <div class="outlet-station">${item.station}</div>
+                  <div class="outlet-name">${item.name}</div>
+                </div>
+                <div class="outlet-status">
+                  <div class="outlet-status-restmin-1-20">
+                    <div class="outlet-status-restmin-detail">预计等待${item.restmin}分钟</div>
+                    <div class="outlet-status-availabletime-detail">${item.available_time}</div>
+                  </div>
+                  <div class="outlet-status-usedmin">已使用${item.usedmin}分钟</div>
+                </div>
+                <div class="outlet-msg">
+                  <div class="outlet-msg-know">${item.msg}</div>
+                </div>
+              `;
+            } else if (item.restmin <= 120) {
+              div.className = 'outlet restmin-21-120';
+              div.innerHTML = `
+                <div class="outlet-header">
+                  <div class="outlet-station">${item.station}</div>
+                  <div class="outlet-name">${item.name}</div>
+                </div>
+                <div class="outlet-status">
+                  <div class="outlet-status-restmin-21-120">
+                    <div class="outlet-status-restmin-detail">预计等待${item.restmin}分钟</div>
+                    <div class="outlet-status-availabletime-detail">${item.available_time}</div>
+                  </div>
+                  <div class="outlet-status-usedmin">已使用${item.usedmin}分钟</div>
+                </div>
+                <div class="outlet-msg">
+                  <div class="outlet-msg-know">${item.msg}</div>
+                </div>
+              `;
+            } else if (item.restmin < 65535) {
+              div.className = 'outlet restmin-121-unknow';
+              div.innerHTML = `
+                <div class="outlet-header">
+                  <div class="outlet-station">${item.station}</div>
+                  <div class="outlet-name">${item.name}</div>
+                </div>
+                <div class="outlet-status">
+                  <div class="outlet-status-restmin-121-unknow">
+                    <div class="outlet-status-restmin-detail">预计等待${item.restmin}分钟</div>
+                    <div class="outlet-status-availabletime-detail">${item.available_time}</div>
+                  </div>
+                  <div class="outlet-status-usedmin">已使用${item.usedmin}分钟</div>
+                </div>
+                <div class="outlet-msg">
+                  <div class="outlet-msg-know">${item.msg}</div>
+                </div>
+              `;
+            } else if (item.restmin === 65535 && (item.msg === '分钟计费模式' || item.msg === '电度计费模式')) {
+              div.className = 'outlet unkown';
+              div.innerHTML = `
+                <div class="outlet-header">
+                  <div class="outlet-station">${item.station}</div>
+                  <div class="outlet-name">${item.name}</div>
+                </div>
+                <div class="outlet-status">
+                  <div class="outlet-status-unkown">可用时间未知</div>
+                  <div class="outlet-status-usedmin">已使用${item.usedmin}分钟</div>
+                </div>
+                <div class="outlet-msg">
+                  <div class="outlet-msg-unknow">${item.msg}</div>
+                </div>
+              `;
+            } else {
+              div.className = 'outlet error';
+              div.innerHTML = `
+                <div class="outlet-header">
+                  <div class="outlet-station">${item.station}</div>
+                  <div class="outlet-name">${item.name}</div>
+                </div>
+                <div class="outlet-status">
+                  <div class="outlet-status-error">可用时间未知</div>
+                </div>
+                <div class="outlet-msg">
+                  <div class="outlet-msg-error">${item.msg}</div>
+                </div>
+              `;
+            }
+            list.appendChild(div);
+          }
+    
+          // 更新占用情况
+          let table = document.getElementById('table-of-unoccupied');
+          length = table.rows.length;
+          if (length === 0) {
+            for (const station of sortedStations) {
+              let row = table.insertRow();
+              row.insertCell().innerText = station;
+              let cell = row.insertCell();
+              cell.innerText = num_unoccupied[station];
+              if (num_unoccupied[station] === 0) {
+                cell.style.color = '#808080';
+              }
+              else {
+                cell.style.color = '#00A0FF';
+                cell.style.fontWeight = 'bold';
+              }
+              cell = row.insertCell();
+              cell.innerText = num_less20[station];
+              if (num_less20[station] === 0) {
+                cell.style.color = '#808080';
+              }
+              else {
+                cell.style.color = '#00A0FF';
+                cell.style.fontWeight = 'bold';
+              }
+              // Add cell for 21-120 minutes count
+              cell = row.insertCell();
+              cell.innerText = num_less120[station];
+              if (num_less120[station] === 0) {
+                cell.style.color = '#808080';
+              }
+              else {
+                cell.style.color = '#FFB000';
+                cell.style.fontWeight = 'bold';
+              }
+            }
+          }
+        }).catch(error => {
+          console.error('Error:', error);
+        }).finally(() => {
+          filterTable();
+        });
+    }
+  </script>
 </body>
 </html>
