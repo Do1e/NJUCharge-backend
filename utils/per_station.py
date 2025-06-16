@@ -1,12 +1,8 @@
 import requests
 
-with open('token.txt') as f:
-    token = f.read().strip()
-    # 需要自行抓包，在闪开来电返回的Header中找到token项
-
 def get_outlets(station_id, debug=False):
     url = f'https://wemp.issks.com/charge/v1/outlet/station/outlets/{station_id}'
-    resp = requests.get(url, headers={'token': token})
+    resp = requests.get(url, headers={'token': ''})
     try:
         resp = resp.json()
         if not resp['success']:
